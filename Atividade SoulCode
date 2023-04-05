@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Filmes favoritos</title>
+    <style>body{background-color: aquamarine;} </style>
+</head>
+<body>
+    <h1>Top 5 filmes favoritos</h1>
+
+    <!-- Lista de filmes com numero -->
+    <ol>
+    <!-- Primeiro Filme -->
+    <li><h1>Gente Grande</h1></li>
+    <img src="https://br.web.img3.acsta.net/c_310_420/pictures/210/299/21029996_20130821205722213.jpg" height="500px">
+    <p>
+        Um Filme de comédia que reúne uma turma de amigos<br/> após a morte
+        de seu treinador de basquete,<br/> e apartir dai eles reencontram
+        seus rivais<br/> de anos atras, começando os desafios de quem é melhor<br/>
+        e falatoria que o jogo do campeonato foi "roubado".
+    </p>
+
+    <!-- Segundo filme -->
+    <li><h2>Harry Potter</h2></li>
+    <img src="https://br.web.img3.acsta.net/medias/nmedia/18/95/59/60/20417256.jpg" height="500px">
+    <p>
+        Um filme de fantasia que conta a historia de um orfão<br/>
+        filho de bruxos, o qual foi deixado com seus tios<br/> que não
+        são bruxos, mas sua vida está para ser revelada<br/> quando
+        ele recebe uma carta de uma escola de bruxaria, <br/>levando
+        ele para diversas aventuras e a conhecer novos amigos.
+    </p>
+
+    <!-- Terceiro Filme -->
+    <li><h3>Superman</h3></li>
+    <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/5/59/Superman_Returns_poster.jpg/230px-Superman_Returns_poster.jpg" height="500px">
+    <p>
+        Um filme de heroi que conta a historia de um jovem<br/>
+        que teve seu planeta natal destruido, foi mandado<br/> 
+        para o planeta terra, para não ser exterminado, porem<br/>
+        ao chegar na terra foi adotado por um casal que achou<br/>
+        a criança em uma nave, descobrindo então que o rapaz<br/>
+        tinha super poderes, e que ele era capaz de salvar o mundo
+    </p>
+
+    <!-- Quarto Filme -->
+    <li><h4>Questão de Tempo</h4></li>
+    <img src="https://br.web.img3.acsta.net/pictures/210/530/21053062_20131025204305591.jpg" height="500px">
+    <p>
+        Um filme de romance que envolve viagem no tempo,<br/> o jovem
+        Tim descobre que sua familia tem um <br/>poder de viajar no tempo
+        e que é herdado entre<br/> os homens da familia, então ele usa esse
+        poder <br/>para conquistar a mulher dos seus sonhos e ajudar<br/> seu amigo
+        profissionalmente, porem ele deve usar<br/> sabiamente esse poder para
+        não se enrascar com as <br/>consequencias.
+    </p>
+
+    <!-- Quinto Filme -->
+    <li><h5>Homem Aranha</h5></li>
+    <img src="https://upload.wikimedia.org/wikipedia/pt/1/14/Spide-Man_Poster.jpg" height="500px">
+    <p>
+        Um filme de aventura onde um adolescente ganha <br/>super poderes
+        apos ser picado por uma aranha,<br/> agora com grandes poderes ele
+        tem grandes<br/> responsabilidades, tendo que ser o amigão da <br/>vizinhança
+        e derrotando vilões.
+    </p>
+    </ol>
+</body>
+
+<!-- Rodapé -->
+<footer>
+    <b>Ioan Ravi Ramirez Emery Luna</b><br/>
+    <a href="https://www.linkedin.com/in/ioan-ravi-34aa2224b/">Link para o linkedln</a>
+</footer>
+
+</html>
