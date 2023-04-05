@@ -12,6 +12,7 @@
     <!-- Primeiro Filme -->
     <li><h1>Gente Grande</h1></li>
     <img src="https://br.web.img3.acsta.net/c_310_420/pictures/210/299/21029996_20130821205722213.jpg" height="500px">
+    <br/><br/><b>Sinopse</b>
     <p>
         Um Filme de comédia que reúne uma turma de amigos<br/> após a morte
         de seu treinador de basquete,<br/> e apartir dai eles reencontram
@@ -22,6 +23,7 @@
     <!-- Segundo filme -->
     <li><h2>Harry Potter</h2></li>
     <img src="https://br.web.img3.acsta.net/medias/nmedia/18/95/59/60/20417256.jpg" height="500px">
+    <br/><br/><b>Sinopse</b>
     <p>
         Um filme de fantasia que conta a historia de um orfão<br/>
         filho de bruxos, o qual foi deixado com seus tios<br/> que não
@@ -33,6 +35,7 @@
     <!-- Terceiro Filme -->
     <li><h3>Superman</h3></li>
     <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/5/59/Superman_Returns_poster.jpg/230px-Superman_Returns_poster.jpg" height="500px">
+    <br/><br/><b>Sinopse</b>
     <p>
         Um filme de heroi que conta a historia de um jovem<br/>
         que teve seu planeta natal destruido, foi mandado<br/> 
@@ -45,6 +48,7 @@
     <!-- Quarto Filme -->
     <li><h4>Questão de Tempo</h4></li>
     <img src="https://br.web.img3.acsta.net/pictures/210/530/21053062_20131025204305591.jpg" height="500px">
+    <br/><br/><b>Sinopse</b>
     <p>
         Um filme de romance que envolve viagem no tempo,<br/> o jovem
         Tim descobre que sua familia tem um <br/>poder de viajar no tempo
@@ -57,6 +61,7 @@
     <!-- Quinto Filme -->
     <li><h5>Homem Aranha</h5></li>
     <img src="https://upload.wikimedia.org/wikipedia/pt/1/14/Spide-Man_Poster.jpg" height="500px">
+    <br/><br/><b>Sinopse</b>
     <p>
         Um filme de aventura onde um adolescente ganha <br/>super poderes
         apos ser picado por uma aranha,<br/> agora com grandes poderes ele
