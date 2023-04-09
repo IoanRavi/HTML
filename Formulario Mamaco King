@@ -1,0 +1,84 @@
+Arquivo HTML
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Cadastro</title>
+        <link rel="stylesheet" href="mamaco.css" type="text/css">
+    </head>
+    <body>
+        
+        <h1> Cadastro para se tornar cliente </h1>
+        <p>Preencha os dados para se cadastrar em nosso site.</p>
+    <!-- Iniciando meu formulario lindo -->
+    <form>
+        <label for="Nome">Nome:</label><br/>
+        <input type="text" name="Nome" id="Nome" placeholder="preencha aqui seu nome completo"><br/><br/>
+    </form>
+
+    <form>
+        <label for="Nasc">Data de Nascimento:</label><br/>
+        <input type="date" name="nasc" id="Nasc" placeholder="Qual sua data de nascimento"><br/><br/>
+    
+        <label for="Email">Email:</label><br/>
+        <input type="email" name="Email" id="Email" placeholder="preencha seu email"><br/><br/>
+
+        <label for="Endereço">Endereço:</label><br/>
+        <input type="text" name="Endereço" id="Endereço" placeholder="preencha seu endereço"><br/><br/>
+    
+        <label for="Estado">Qual seu Estado?</label><br/>
+        <select name="Estado" id="Estado">
+        <option value="PB">PB</option>
+        <option value="PE">PE</option>
+        <option value="BA">BA</option>
+        <option value="MG">MG</option>
+        <option value="SP">SP</option>
+        <option value="AC">AC</option>
+        <option value="PA">PA</option>
+        </select><br/><br/>
+
+        <label for="CPF">CPF:</label><br/>
+        <input type="text" name="CPF" id="CPF" placeholder="Digite seu CPF"><br/><br/>
+
+        <label for="Senha">Senha: </label><br/>
+        <input type="password" name="Senha" id="Senha" placeholder="Crie sua senha"><br/><br/>
+
+        <input type="button" value="enviar">
+        
+    </form>
+
+    <a href="Mamaco.html">Voltar para a pagina inicial</a>
+
+    </body>
+
+</html>
+
+Arquivo CSS
+
+html{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    
+    background-image:url(../backpa.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+table{
+    background-color: white;
+    text-align: center;
+    border: 2px solid black;
+}
+
+tr, td, th{
+    text-align: center;
+    border: 1px solid black;
+}
