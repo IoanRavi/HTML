@@ -1,0 +1,120 @@
+Arquivo HTMl
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mamaco King</title>
+    <link rel="stylesheet" href="Mamaco.css" type="text/css">
+    <a href="Cadastro.html">Seja nossa cliente</a>
+</head>
+<body>
+
+    <h1 id="Inicio">Papelaria Mamaco King</h1>
+
+    <p>Atualmente estamos em queima de estoque,<a href="#Tab">Clique aqui</a> e veja nossas promoções</p>
+
+    <img src="https://www.coelhopapelaria.com.br/wp-content/uploads/2018/10/Papelaria-Coelho-a-melhor-papelaria-de-Palho%C3%A7a-SC-13.jpeg" width="500px" id="Loja"><br/>
+
+    <p>
+        Aqui você encontra diversidade de produtos e de preços, conheçam a loja fisica <br/>
+        ou comprem pelo nosso site, da forma que você preferir.
+    </p>
+    
+    <!-- Aqui eu declaro minha tabela -->
+    <table class="tabela" id="Tab">
+
+        <tr>
+            <td colspan="5">Tabela Promocional Mamaco King</td>
+        </tr>
+
+        <tr>
+            <!-- th são em negrito -->      
+            <th> Foto do Item </th>
+            <th> Nome do Item </th>
+            <th> Quantidade em estoque </th>
+            <th> Preço </th>
+            <th> Preço promocional </th>
+        </tr>
+
+        <!-- Aqui eu tenho meu primeiro item -->
+        <tr>
+        <td> <img src="https://cf.shopee.com.br/file/ef012dbdb50ba0fe12b815ccca3223e3" height="50px"> </td>
+        <td> Caderno </td>
+        <td> 87 </td>
+        <td> R$40.99 </td>
+        <td> R$16.75 </td>
+        </tr>
+
+        <!-- Aqui eu tenho meu segundo item -->
+        <tr>
+            <td> <img src="https://http2.mlstatic.com/D_NQ_NP_2X_985980-MLB53583138750_022023-F.webp" height="50px"> </td>
+            <td> Cartolina EVA </td>
+            <td> 468 </td>
+            <td> R$22.95 </td>
+            <td> R$5.85 </td>
+        </tr>
+
+        <!-- Aqui eu tenho meu terceiro item -->
+        <tr>
+            <td> <img src="https://papelavulso.com.br/wp-content/uploads/2021/04/Chamex-90.png" height="50px"> </td>
+            <td> Folha A4 </td>
+            <td> 158 </td>
+            <td> R$42.90 </td>
+            <td> R$20.75 </td>
+        </tr>
+
+        <!-- Aqui eu tenho meu quarto item -->
+        <tr>
+            <td> <img src="https://m.media-amazon.com/images/I/715DLO53hkL.__AC_SX300_SY300_QL70_ML2_.jpg" height="50px"> </td>
+            <td> Caneta hidrográfica </td>
+            <td> 123 </td>
+            <td> R$290.49 </td>
+            <td> R$50.99 </td>
+        </tr>
+
+        <!-- Aqui eu tenho meu quinto item -->
+        <tr>
+            <td> <img src="https://static3.tcdn.com.br/img/img_prod/738352/chaveiro_sortido_diversos_i2go_2999_1_20200729105656.jpg" height="50px"> </td>
+            <td> Chaveiros diversos </td>
+            <td> 178 </td>
+            <td> R$10.99 </td>
+            <td> R$2.75 </td>
+        </tr>
+    </table>
+
+        <p><a href="#Inicio">Clique aqui</a> para voltar ao inicio</p>
+         
+</body>
+<footer>
+    <b style="font-size: medium;">Mamaco King &copy; 2023</b>
+</footer>
+</html>
+
+ARQUIVO CSS
+
+html{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    
+    background-image:url(../backpa.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+table{
+    background-color: white;
+    text-align: center;
+    border: 2px solid black;
+}
+
+tr, td, th{
+    text-align: center;
+    border: 1px solid black;
+}
