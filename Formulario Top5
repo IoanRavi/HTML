@@ -1,0 +1,70 @@
+ARQUIVO HTML
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario Top 5</title>
+    <link rel="stylesheet" href="formularioTop5.css" type="text/css">
+
+</head>
+<body>
+    <h1>Sugira um filme ou serie que você goste,<br/> para entrar no top 5</h1>
+
+    
+    <form class="Formulario">
+        <br/>
+
+        <label for="Name">Nome</label><br/>
+        <input type="text" name="name" id="Name" placeholder="Digite seu nome"><br/><br/>
+
+        <label for="Email">Email</label><br/>
+        <input type="email" name="email" id="Email"><br/><br/>
+
+        <label for="tipo">Tipo</label><br/>
+        <select name="tipo" id="tipo">
+            <option value="Filme">Filme</option>
+            <option value="Serie">Serie</option>
+        </select><br/><br/>
+
+        <label for="nameF/S">Nome do Filme/Serie</label><br/>
+        <input type="text" name="nameF" id="NameF" placeholder="Digite o nome do filme ou serie"><br/><br/>
+
+        <label for="link">Tem algum link do trailer?</label><br/>
+        <input type="url" name="link" id="Link"><br/><br/>
+
+        <input type="button" value="Enviar"><br/><br/>
+    </form>
+    
+</body>
+</html>
+
+ARQUIVO CSS
+
+body{
+    background-image: url(https://as2.ftcdn.net/v2/jpg/01/54/76/07/1000_F_154760711_C3jq59wTGrNVmIyB8DI54qkdlP6QBxZD.jpg);
+    background-size: cover;
+}
+
+h1{
+    backface-visibility: visible;
+    text-align: center;
+}
+
+.Formulario{
+    background-color: rgb(212, 232, 249);
+    margin-left: 35%;
+    margin-top: 5%;
+    margin-right: 30%;
+    border: 1px black;
+    border-left-color: black;
+    border-radius: 10%;
+}
+
+input{
+    margin-left: 5%;
+    width: 90%;
+}
+
+label, select{
+    margin-left: 5%;
+}
