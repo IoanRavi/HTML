@@ -1,0 +1,177 @@
+Página 1
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pokemon</title>
+    <link rel="stylesheet" href="Pokemon.css" type="text/css">
+</head>
+<body>
+    <h3>Não possui cadastro? <a href="#cad">Cadastre-se</a></h3>
+    <div class="Login">
+    <form>
+        <h1>Login</h1>
+
+        <label for="Login">Login:</label><br/>
+        <input type="text" name="login" id="loginlog" placeholder="Digite seu ID Mestre">
+
+        <label for="Senha">Senha:</label><br/>
+        <input type="password" name="Senha" id="Senhalog" placeholder="Digite sua Senha">
+     
+        <a href="PokeCadastro.html"><input type="button" value="Conectar"></a>
+    </form>
+    </div>
+
+    <div class="Cadastro">
+    <form>
+        <h1 id="cad">Cadastro</h1>
+
+        <label for="Nome">Nome:</label><br/>
+        <input type="text" name="Nome" id="Nome" placeholder="Digite seu nome completo">
+
+        <label for="Id">Id mestre:</label><br/>
+        <input type="text" name="Id" id="Id" placeholder="Crie um ID Mestre, usado para logar">
+        
+        <label for="Regiao">Região de atuação</label><br/>
+        <select name="Regiao" id="Regiao">
+            <option value="Kanto">Kanto</option>
+            <option value="Johto">Johto</option>
+            <option value="Hoenn">Hoenn</option>
+            <option value="Sinnoh">Sinnoh</option>
+            <option value="Unova">Unova</option>
+            <option value="Kalos">Kalos</option>
+        </select>
+
+        <label for="Senha">Senha:</label><br/>
+        <input type="password" name="Senha" id="Senhacad" placeholder="Crie sua Senha">
+
+        <a href="PokeCadastro.html" rel="prev"><input type="button" value="confirmar Cadastro"></a>
+
+    </form>
+    </div>
+    
+</body>
+</html>
+
+Página 2
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cadastre seus pokemons</title>
+    <link rel="stylesheet" href="Pokemon.css" type="text/css">
+    <a href="Pokemon.html" rel="prev">Logout</a>
+</head>
+<body>
+    <form class="cadastropoke">
+        <h1>Cadastro de pokemon</h1>
+
+        <label for="Nome">Nome do pokemon</label><br/>
+        <input type="text" name="Nome" id="Nome" placeholder="Digite seu nome completo"><br/>
+
+        <label for="data">Data da captura</label><br/>
+        <input type="date" name="data" id="data"><br/>
+        
+        <label for="quantidade">Quantidade de pokebolas usadas: </label><br/>
+        <input type="number" name="quantidade" id="quantidade" placeholder="Quantas pokeball você usou para captura-lo?"><br/>
+
+        <label for="tipo">Elemento</label><br/>
+        <select name="elemento" id="elemento">
+            <option value="Normal">Normal</option>
+            <option value="Fogo">Fogo</option>
+            <option value="Agua">Água</option>
+            <option value="Ar">Ar</option>
+            <option value="Planta">Planta</option>
+            <option value="Eletrico">Elétrico</option>
+            <option value="Gelo">Gelo</option>
+        </select><br/>
+
+        <label for="desc">Informações adicionais sobre a captura</label><br/>
+        <input type="text" name="desc" id="desc"><br/>
+
+        <input type="button" value="confirmar Cadastro do Pokemon"><br/>
+
+    </form>
+    
+</body>
+</html>
+
+ARQUIVO CSS
+
+body{
+    background-image: url(https://w0.peakpx.com/wallpaper/836/820/HD-wallpaper-pokemon-go-teams-pokemongo-pokemon-team-po.jpg);
+    background-size: contain;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.Login{ 
+    margin-left: 35%;
+    margin-top: 10%;
+    background-image: url(https://i.pinimg.com/736x/8b/88/d8/8b88d8a884df1dca02d338d9f5cf633c--pokemon-fan-photoshop.jpg);
+    border: 3px solid #eee;
+    padding: 5px;
+    width: 25%;
+    border-radius: 5%;
+}
+
+.Cadastro{
+    background-image: url(https://i.pinimg.com/736x/8b/88/d8/8b88d8a884df1dca02d338d9f5cf633c--pokemon-fan-photoshop.jpg);
+    margin-top: 10%;
+    margin-left: 35%;
+    border: 3px solid #eee;
+    padding: 5px;
+    width: 25%;
+    border-radius: 5%;
+}
+
+.cadastropoke{
+    background-image: url(https://i.pinimg.com/736x/8b/88/d8/8b88d8a884df1dca02d338d9f5cf633c--pokemon-fan-photoshop.jpg);
+    background-size: cover;
+    margin-top: 5%;
+    margin-left: 35%;
+    background-color: rgb(146, 146, 146);
+    border: 3px solid #eee;
+    padding: 5px;
+    width: 25%;
+    border-radius: 5%;
+}
+
+input[type="password"],
+  input[type="text"],
+  input[type="date"],
+  input[type="number"],
+  select {
+    margin-bottom: 10px;
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+input[type="button"]{
+    margin-left: 5%;
+}
+
+label{
+    color: white;
+    margin-left: 5%;
+}
+
+h1{
+    margin-left: 5%;
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+h3{
+    margin-left: 10%;
+}
