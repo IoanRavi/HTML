@@ -1,0 +1,82 @@
+ARQUIVO HTML
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Oportunidade</title>
+    <link rel="stylesheet" href="Oportunidade.css">
+</head>
+<body>
+    <form class="formulario">
+        <br/>
+        <label for="part">Particular</label>
+        <input type="checkbox" name="part" id="part"><br/>
+
+        <label for="opor">Nome da Oportunidade</label>
+        <input type="text" name="opor" id="opor" placeholder="Digite o nome da oportunidade"><br/>
+
+        <label for="valor">Valor</label>
+        <input type="text" name="valor" id="valor" placeholder="Digite o valor da oportunidade"><br/>
+
+        <label for="Fase">Fase</label>
+        <select name="fase" id="Fase">
+            <option value="Prospecting">Prospecting</option>
+            <option value="Qualification">Qualification</option>
+            <option value="Needs Analysis">Needs Analysis</option>
+            <option value="Value Proposition">Value Proposition</option>
+            <option value="Id. Decision Makers">Id. Decision Makers</option>
+            <option value="Perception Analysis">Perception Analysis</option>
+            <option value="Proposal/Price Quote">Proposal/Price Quote</option>
+            <option value="Negotiation/Review">Negotiation/Review</option>
+            <option value="Closed Won">Closed Won</option>
+            <option value="Closed Lost">Closed Lost</option>
+        </select><br/>
+
+        <label for="Tipo">Tipo</label>
+        <select name="tipo" id="Tipo">
+            <option value="Existing Customer - Upgrade">Existing Customer - Upgrade</option>
+            <option value="Existing Customer - Replacement">Existing Customer - Replacement</option>
+            <option value="Existing Customer - Downgrade">Existing Customer - Downgrade</option>
+            <option value="New Customer">New Customer</option><br/>
+        </select><br/>
+    </form>
+    
+</body>
+</html>
+
+ARQUIVO CSS
+
+body{
+    background-image: url(https://www.salesforce.com/content/dam/web/en_us/www/images/get-more-from-digital-cnx21-zoom-background.png);
+    background-size: cover;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="checkbox"]{
+    margin-left: -80%;
+}
+
+input[type="text"]{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.formulario{
+    background-color: rgb(144, 189, 228);
+    margin-left: 40%;
+    margin-top: 10%;
+    margin-right: 40%;
+    border: 1px black;
+    border-left-color: black;
+    border-radius: 10%;
+}
+
+label, select{
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
